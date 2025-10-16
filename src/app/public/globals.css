@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --moss-green: #2d3e2e;
+    --moss-dark: #1a251b;
+    --moss-light: #4a5f4b;
+    --ivory: #f5f1e8;
+    --cream: #d4c5a0;
+  }
+
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: Arial, Helvetica, sans-serif;
+}
+}
+

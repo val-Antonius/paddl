@@ -1,3 +1,10 @@
+// Public site types
+export * from './common.types';
+export * from './benefits.types';
+export * from './pricing.types';
+export * from './schedule.types';
+
+// Member site types
 export interface Slot {
   date: string;
   court: string;
