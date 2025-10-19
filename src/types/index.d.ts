@@ -3,6 +3,8 @@ export * from './common.types';
 export * from './benefits.types';
 export * from './pricing.types';
 export * from './schedule.types';
+export * from './gallery.types';
+export * from './facilities.types';
 
 // Member site types
 export interface Slot {

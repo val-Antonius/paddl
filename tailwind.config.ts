@@ -8,16 +8,6 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        'moss-green': 'var(--moss-green)',
-        'moss-dark': 'var(--moss-dark)',
-        'moss-light': 'var(--moss-light)',
-        ivory: 'var(--ivory)',
-        cream: 'var(--cream)',
-      },
-      fontFamily: {
-        sans: ['Inter', 'sans-serif'],
-      },
       animation: {
         'slide-up': 'slide-up 0.3s ease-out',
       },

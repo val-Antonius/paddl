@@ -3,11 +3,21 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --moss-green: #2d3e2e;
+  --moss-dark: #1a251b;
+  --moss-light: #4a5f4b;
+  --ivory: #f5f1e8;
+  --cream: #d4c5a0;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-moss-green: var(--moss-green);
+  --color-moss-dark: var(--moss-dark);
+  --color-moss-light: var(--moss-light);
+  --color-ivory: var(--ivory);
+  --color-cream: var(--cream);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }

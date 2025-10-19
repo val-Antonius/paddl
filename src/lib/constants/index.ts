@@ -3,3 +3,5 @@ export * from './schedule';
 export * from './pricing';
 export * from './benefits';
 export * from './navigation';
+export * from './gallery';
+export * from './facilities';
