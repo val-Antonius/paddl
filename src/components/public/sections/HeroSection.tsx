@@ -14,11 +14,7 @@ interface HeroSectionProps {
 
 export function HeroSection({
   title,
-  subtitle,
-  navLinks = [
-    { label: 'LAPANGAN', href: '#lapangan' },
-    { label: 'KOTA', href: '#kota' }
-  ]
+  subtitle
 }: HeroSectionProps) {
   return (
     <section className="relative h-screen w-full overflow-hidden bg-gradient-to-br from-moss-green to-moss-dark">
@@ -27,7 +23,7 @@ export function HeroSection({
         <div className="h-full w-full bg-[repeating-linear-gradient(45deg,transparent,transparent_35px,#f5f1e8_35px,#f5f1e8_37px)]" />
       </div>
 
-      {/* Navigation */}
+      {/* Navigation
       <nav className="absolute left-0 right-0 top-0 z-50 px-5 py-8 md:px-[5%]">
         <div className="flex items-center justify-between">
           <div className="flex gap-8 md:gap-12">
@@ -51,7 +47,7 @@ export function HeroSection({
             </button>
           </div>
         </div>
-      </nav>
+      </nav> */}
 
       {/* Hero Content */}
       <div className="relative z-10 flex h-full items-center justify-center px-5">

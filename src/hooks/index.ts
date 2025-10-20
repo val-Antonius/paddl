@@ -6,3 +6,4 @@ export { usePricingTab } from './usePricingTab';
 export { useMediaQuery, useIsMobile } from './useMediaQuery';
 export { useParallax } from './useParallax';
 export { useInView } from './useInView';
+export { useScrollDirection } from './useScrollDirection';

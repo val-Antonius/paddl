@@ -16,3 +16,6 @@ export type { SectionProps } from './Section';
 
 export { FloatingCTA } from './FloatingCTA';
 export type { FloatingCTAProps } from './FloatingCTA';
+
+export { Navigation } from './Navigation';
+export { MobileNavigation } from './MobileNavigation';

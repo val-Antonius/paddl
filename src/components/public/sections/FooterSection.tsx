@@ -24,7 +24,7 @@ export function FooterSection({
   };
 
   return (
-    <footer className="bg-black px-5 py-16 md:px-[5%] md:py-24">
+    <footer className="bg-gradient-to-br from-moss-green to-moss-dark px-5 py-16 md:px-[5%] md:py-24">
       <Container maxWidth="xl">
         {/* CTA Section */}
         <div className="mb-12 md:mb-16">
@@ -32,7 +32,7 @@ export function FooterSection({
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="mb-6 text-3xl font-black uppercase leading-tight text-moss-green md:mb-8 md:text-4xl lg:text-5xl xl:text-6xl"
+            className="mb-6 text-3xl font-black uppercase leading-tight text-cream md:mb-8 md:text-4xl lg:text-5xl xl:text-6xl"
           >
             {ctaTitle}
           </motion.h2>
